@@ -14,8 +14,6 @@
 
 [![Image from Gyazo](https://i.gyazo.com/a06385e78f963d2146074374712659c7.png)](https://gyazo.com/a06385e78f963d2146074374712659c7)
 
-[![Image from Gyazo](https://i.gyazo.com/92aa95e6dc262fd7123174d63dfc9d61.png)](https://gyazo.com/92aa95e6dc262fd7123174d63dfc9d61)
-
 正解
 
 [![Image from Gyazo](https://i.gyazo.com/b41f4838595044c20284f0e489da5ab1.png)](https://gyazo.com/b41f4838595044c20284f0e489da5ab1)
@@ -78,12 +76,11 @@ TcpConnectionSimulator クラスのコンストラクタには 4 つの仮引数
 
 位置合わせ前
 
-[![Image from Gyazo](https://i.gyazo.com/6b28664f58fe08e20679a499ba4aae67.png)](https://gyazo.com/6b28664f58fe08e20679a499ba4aae67)
+[![Image from Gyazo](https://i.gyazo.com/97664a7984773845a021a3d259625190.png)](https://gyazo.com/97664a7984773845a021a3d259625190)
 
 位置合わせ後
 
-[![Image from Gyazo](https://i.gyazo.com/a9a395cdfef93487b179d6ef2efd402e.png)](https://gyazo.com/a9a395cdfef93487b179d6ef2efd402e)
-
+[![Image from Gyazo](https://i.gyazo.com/e8b8681798d14ebc679db4d870683636.png)](https://gyazo.com/e8b8681798d14ebc679db4d870683636)
 
 ## 4-5. 一貫性と意味のある並び
 
