@@ -10,6 +10,16 @@
 
 ## 4-1. なぜ美しさが大切なのか？
 
+美しくないと理解に時間がかかる
+
+[![Image from Gyazo](https://i.gyazo.com/92aa95e6dc262fd7123174d63dfc9d61.png)](https://gyazo.com/92aa95e6dc262fd7123174d63dfc9d61)
+
+正解
+
+[![Image from Gyazo](https://i.gyazo.com/b41f4838595044c20284f0e489da5ab1.png)](https://gyazo.com/b41f4838595044c20284f0e489da5ab1)
+
+**プログラミングのほとんどの時間はコードを読む時間**
+
 ## 4-2. 一貫性のある簡潔な改行位置
 
 
