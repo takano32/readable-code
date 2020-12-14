@@ -14,7 +14,7 @@
 
 [![Image from Gyazo](https://i.gyazo.com/a06385e78f963d2146074374712659c7.png)](https://gyazo.com/a06385e78f963d2146074374712659c7)
 
-正解
+美しくした例
 
 [![Image from Gyazo](https://i.gyazo.com/64ee47bc2ef8d3e71ad0b11cb413501f.png)](https://gyazo.com/64ee47bc2ef8d3e71ad0b11cb413501f)
 
