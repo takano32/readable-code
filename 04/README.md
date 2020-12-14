@@ -65,9 +65,9 @@ TcpConnectionSimulator クラスのコンストラクタには 4 つの仮引数
 
 ## 4-4. 縦の線をまっすぐにする
 
-先ほどの例
+先ほどの例に注目
 
-[![Image from Gyazo](https://i.gyazo.com/e54e57b195fce64397d04d7e6999fc62.png)](https://gyazo.com/e54e57b195fce64397d04d7e6999fc62)
+[![Image from Gyazo](https://i.gyazo.com/f7ecb3a06e761ceef1537a0280b58fbd.png)](https://gyazo.com/f7ecb3a06e761ceef1537a0280b58fbd)
 
 表敬式のようにすると分かりやすい
 
