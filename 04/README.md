@@ -67,7 +67,7 @@ TcpConnectionSimulator クラスのコンストラクタには 4 つの仮引数
 
 先ほどの例に注目
 
-[![Image from Gyazo](https://i.gyazo.com/f7ecb3a06e761ceef1537a0280b58fbd.png)](https://gyazo.com/f7ecb3a06e761ceef1537a0280b58fbd)
+[![Image from Gyazo](https://i.gyazo.com/6b0058dbd246c47843c374ad092b3284.png)](https://gyazo.com/6b0058dbd246c47843c374ad092b3284)
 
 表敬式のようにすると分かりやすい
 
