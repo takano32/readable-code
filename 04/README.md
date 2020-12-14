@@ -12,6 +12,8 @@
 
 美しくないと理解に時間がかかる
 
+[![Image from Gyazo](https://i.gyazo.com/a06385e78f963d2146074374712659c7.png)](https://gyazo.com/a06385e78f963d2146074374712659c7)
+
 [![Image from Gyazo](https://i.gyazo.com/92aa95e6dc262fd7123174d63dfc9d61.png)](https://gyazo.com/92aa95e6dc262fd7123174d63dfc9d61)
 
 正解
