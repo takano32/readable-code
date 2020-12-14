@@ -16,7 +16,8 @@
 
 正解
 
-[![Image from Gyazo](https://i.gyazo.com/b41f4838595044c20284f0e489da5ab1.png)](https://gyazo.com/b41f4838595044c20284f0e489da5ab1)
+[![Image from Gyazo](https://i.gyazo.com/64ee47bc2ef8d3e71ad0b11cb413501f.png)](https://gyazo.com/64ee47bc2ef8d3e71ad0b11cb413501f)
+
 
 **プログラミングのほとんどの時間はコードを読む時間**
 
@@ -30,26 +31,30 @@ TcpConnectionSimulator クラスのコンストラクタには 4 つの仮引数
 
 改行の位置が悪い例
 
-[![Image from Gyazo](https://i.gyazo.com/ccac44551deb21c0f29de02673b57223.png)](https://gyazo.com/ccac44551deb21c0f29de02673b57223)
+[![Image from Gyazo](https://i.gyazo.com/602bcca8f4316e441710434795216664.png)](https://gyazo.com/602bcca8f4316e441710434795216664)
+
 
 改行の位置が良い例
 
-[![Image from Gyazo](https://i.gyazo.com/bad34611acebf0f89d7b45b2318262c4.png)](https://gyazo.com/bad34611acebf0f89d7b45b2318262c4)
+
+[![Image from Gyazo](https://i.gyazo.com/faf9e41053d3d8f91875e9e66f71c90d.png)](https://gyazo.com/faf9e41053d3d8f91875e9e66f71c90d)
+
 
 さらにコメントの冗長性を取り除いた例
 
-[![Image from Gyazo](https://i.gyazo.com/7ea5033bff19df871f74b748c94de7b1.png)](https://gyazo.com/7ea5033bff19df871f74b748c94de7b1)
+[![Image from Gyazo](https://i.gyazo.com/fe95a683f1e8806f02e0eb4c9bcec481.png)](https://gyazo.com/fe95a683f1e8806f02e0eb4c9bcec481)
 
 ## 4-3. メソッドを使った整列
 
 同一の処理がまとめられていないと読みにくい
 
-[![Image from Gyazo](https://i.gyazo.com/9e232bd0217885e77d654e10f5966f55.png)](https://gyazo.com/9e232bd0217885e77d654e10f5966f55)
 
-ヘルパーメソッドを作成して分かりやすくした例
+[![Image from Gyazo](https://i.gyazo.com/355b9cb87396a9d7787f71d9d7182813.png)](https://gyazo.com/355b9cb87396a9d7787f71d9d7182813)
 
-[![Image from Gyazo](https://i.gyazo.com/223d3c2868fd938927f06fbd7ec82bd4.png)](https://gyazo.com/223d3c2868fd938927f06fbd7ec82bd4)
 
+ヘルパーメソッドを作成し処理をまとめて分かりやすくした例
+
+[![Image from Gyazo](https://i.gyazo.com/f7ecb3a06e761ceef1537a0280b58fbd.png)](https://gyazo.com/f7ecb3a06e761ceef1537a0280b58fbd)
 
 * 重複を排除したことでコードが簡潔になった。
 * テストケースの大切な部分(名前やエラー文字列)が見やすくなった。以前 は、database_connection や error などのトークンに囲まれていて、コード を見て「飲み込む」のが難しかった。
@@ -66,11 +71,11 @@ TcpConnectionSimulator クラスのコンストラクタには 4 つの仮引数
 
 表敬式のようにすると分かりやすい
 
-[![Image from Gyazo](https://i.gyazo.com/c6c41ec4c3c17e3f098512189b12e678.png)](https://gyazo.com/c6c41ec4c3c17e3f098512189b12e678)
+[![Image from Gyazo](https://i.gyazo.com/eccc859452a4d3c8b1ac376f4eeb4333.png)](https://gyazo.com/eccc859452a4d3c8b1ac376f4eeb4333)
 
 規則性をもたせると間違いも見つけやすい
 
-[![Image from Gyazo](https://i.gyazo.com/d7405adb4f0951a4b4b0f2690f227ab7.png)](https://gyazo.com/d7405adb4f0951a4b4b0f2690f227ab7)
+[![Image from Gyazo](https://i.gyazo.com/fb7cf965a1ed6013efd54c4f855dffd6.png)](https://gyazo.com/fb7cf965a1ed6013efd54c4f855dffd6)
 
 ### 備考: プロダクトでの例
 
