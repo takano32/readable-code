@@ -96,6 +96,62 @@ int CountLines(string filename) { ... }
 
 ## 6-5. 入出力のコーナーケースに実例を使う
 
+悪い例
+
+```
+// 'src' の先頭や末尾にある 'chars' を除去する。 
+String Strip(String src, String chars) { ... }
+```
+
+疑問点
+
+* chars は、除去する文字列なのか、順序のない文字集合なのか?
+* src の末尾に複数の chars があったらどうなるのか?
+
+疑問点をカバーできていない例
+
+```
+// ...
+// 実例:Strip("ab", "a") は "b" を返す
+String Strip(String src, String chars) { ... }
+```
+
+* 単純すぎる実例では不十分
+
+良い例
+
+```
+// ...
+// 実例:Strip("abba/a/ba", "ab") は "/a/" を返す 
+String Strip(String src, String chars) { ... }
+```
+
+
+悪い例 2.
+
+```
+// 'v' の「要素 < pivot」が「要素 >= pivot」の前に来るように配置し直す。 
+// それから、「v[i] < pivot」になる最大の 'i' を返す(なければ -1 を返す)。 
+int Partition(vector<int>* v, int pivot);
+```
+
+* 視覚化が厳しい
+
+改善例 2.
+
+```
+// ...
+// 実例:Partition([8 5 9 8 2], 8) の結果は [5 2 | 8 9 8] となり、1 を返す。 
+int Partition(vector<int>* v, int pivot);
+```
+
+留意点 2.
+
+* pivot をベクタの要素と同じにして、エッジケースを示している
+* ベクタに重複要素(8)を入れることで、これが入力値として受け入れられることを示している
+* 結果のベクタはソートしていない。ここでソートしていたら、ソートしなければいけないと読み手が誤解する可能性がある
+* 戻り値が 1 になるので、ベクタの要素に 1 を入れていない
+
 ## 6-6. コードの意図を書く
 
 悪い例
@@ -105,6 +161,8 @@ int CountLines(string filename) { ... }
 良い例
 
 [![Image from Gyazo](https://i.gyazo.com/e28552dff4d01aac430e3ff2d3903f26.png)](https://gyazo.com/e28552dff4d01aac430e3ff2d3903f26)
+
+**コードの挙動をコメントするのではなく、作者の意図をコメントする**
 
 ## 6-7. 「名前付き引数」コメント
 
