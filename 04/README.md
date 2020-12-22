@@ -73,6 +73,8 @@ TcpConnectionSimulator クラスのコンストラクタには 4 つの仮引数
 
 [![Image from Gyazo](https://i.gyazo.com/d40ecfc3ecc686641ed7af89db3de0fc.png)](https://gyazo.com/d40ecfc3ecc686641ed7af89db3de0fc)
 
+**縦の位置をそろえることで一覧性がよくなる**
+
 ### 備考: wget での例
 
 [![Image from Gyazo](https://i.gyazo.com/9eb456c81df5cd98d9747d4bc869d601.png)](https://gyazo.com/9eb456c81df5cd98d9747d4bc869d601)
@@ -103,7 +105,20 @@ TcpConnectionSimulator クラスのコンストラクタには 4 つの仮引数
 
 [![Image from Gyazo](https://i.gyazo.com/e544a015064c725697bb21433572354f.png)](https://gyazo.com/e544a015064c725697bb21433572354f)
 
+**無用な混乱を避けることができる**
+
 ## 4-6. 宣言をブロックにまとめる
+
+ブロックごとにまとめられていない宣言
+
+[![Image from Gyazo](https://i.gyazo.com/86cbcf68bc147ffc68888ca74ed3b477.png)](https://gyazo.com/86cbcf68bc147ffc68888ca74ed3b477)
+
+宣言を種類ごとにブロックにまとめる
+
+[![Image from Gyazo](https://i.gyazo.com/fbd4313a38c23f034cc1bbaf490c931e.png)](https://gyazo.com/fbd4313a38c23f034cc1bbaf490c931e)
+
+**コードの量は増えたが概要が把握しやすい**
+
 
 ## 4-7. 段落に分割する
 
