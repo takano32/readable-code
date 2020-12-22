@@ -117,7 +117,7 @@ TcpConnectionSimulator クラスのコンストラクタには 4 つの仮引数
 
 宣言を種類ごとにブロックにまとめる
 
-[![Image from Gyazo](https://i.gyazo.com/fbd4313a38c23f034cc1bbaf490c931e.png)](https://gyazo.com/fbd4313a38c23f034cc1bbaf490c931e)
+[![Image from Gyazo](https://i.gyazo.com/497f07fc5b5f105e3c849b9c63f58cdf.png)](https://gyazo.com/497f07fc5b5f105e3c849b9c63f58cdf)
 
 **コードの量は増えたが概要が把握しやすい**
 
