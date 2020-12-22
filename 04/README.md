@@ -12,12 +12,11 @@
 
 美しくないと理解に時間がかかる
 
-[![Image from Gyazo](https://i.gyazo.com/a06385e78f963d2146074374712659c7.png)](https://gyazo.com/a06385e78f963d2146074374712659c7)
+[![Image from Gyazo](https://i.gyazo.com/d2bf9e179a784d8eba4215766cc177d2.png)](https://gyazo.com/d2bf9e179a784d8eba4215766cc177d2)
 
 美しくした例
 
-[![Image from Gyazo](https://i.gyazo.com/64ee47bc2ef8d3e71ad0b11cb413501f.png)](https://gyazo.com/64ee47bc2ef8d3e71ad0b11cb413501f)
-
+[![Image from Gyazo](https://i.gyazo.com/fa9a271a495c73992d545250c0b4a774.png)](https://gyazo.com/fa9a271a495c73992d545250c0b4a774)
 
 **プログラミングのほとんどの時間はコードを読む時間**
 
