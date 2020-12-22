@@ -89,6 +89,20 @@ TcpConnectionSimulator クラスのコンストラクタには 4 つの仮引数
 
 ## 4-5. 一貫性と意味のある並び
 
+フォームの例
+
+* 対応する HTML フォームの <input> フィールドと同じ並び順
+* 「最重要」なものから重要度順
+* アルファベット順
+
+改善前
+
+[![Image from Gyazo](https://i.gyazo.com/6bef151b134dd938dbaad2cd8eb403bc.png)](https://gyazo.com/6bef151b134dd938dbaad2cd8eb403bc)
+
+改善後
+
+[![Image from Gyazo](https://i.gyazo.com/e544a015064c725697bb21433572354f.png)](https://gyazo.com/e544a015064c725697bb21433572354f)
+
 ## 4-6. 宣言をブロックにまとめる
 
 ## 4-7. 段落に分割する
