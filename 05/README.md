@@ -21,6 +21,14 @@
 
 メソッドの名前が分かりにくい英語のときに日本語のコメントを書くことは有用
 
+### コメントのためのコメントをしない
+
+[![Image from Gyazo](https://i.gyazo.com/d730fcf8e54a26b1253eead0f98ac321.png)](https://gyazo.com/d730fcf8e54a26b1253eead0f98ac321)
+
+### ひどい名前はコメントをつけずに名前を変える
+
+[![Image from Gyazo](https://i.gyazo.com/10942612414d94b5e54b6d8106caa29c.png)](https://gyazo.com/10942612414d94b5e54b6d8106caa29c)
+
 ## 5-2. 自分の考えを記録する
 
 ## 5-3. 読み手の立場になって考える
