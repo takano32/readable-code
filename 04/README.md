@@ -30,18 +30,15 @@ TcpConnectionSimulator クラスのコンストラクタには 4 つの仮引数
 
 改行の位置が悪い例
 
-[![Image from Gyazo](https://i.gyazo.com/602bcca8f4316e441710434795216664.png)](https://gyazo.com/602bcca8f4316e441710434795216664)
-
+[![Image from Gyazo](https://i.gyazo.com/83db06428fc113a6053d8d8f88726439.png)](https://gyazo.com/83db06428fc113a6053d8d8f88726439)
 
 改行の位置が良い例
 
-
-[![Image from Gyazo](https://i.gyazo.com/faf9e41053d3d8f91875e9e66f71c90d.png)](https://gyazo.com/faf9e41053d3d8f91875e9e66f71c90d)
-
+[![Image from Gyazo](https://i.gyazo.com/afb367e852addba72bab630f762408d8.png)](https://gyazo.com/afb367e852addba72bab630f762408d8)
 
 さらにコメントの冗長性を取り除いた例
 
-[![Image from Gyazo](https://i.gyazo.com/fe95a683f1e8806f02e0eb4c9bcec481.png)](https://gyazo.com/fe95a683f1e8806f02e0eb4c9bcec481)
+[![Image from Gyazo](https://i.gyazo.com/b2e8ddf0c23a11371e7c40ff154932e7.png)](https://gyazo.com/b2e8ddf0c23a11371e7c40ff154932e7)
 
 ## 4-3. メソッドを使った整列
 
