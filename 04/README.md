@@ -38,7 +38,7 @@ TcpConnectionSimulator クラスのコンストラクタには 4 つの仮引数
 
 さらにコメントの冗長性を取り除いた例
 
-[![Image from Gyazo](https://i.gyazo.com/b2e8ddf0c23a11371e7c40ff154932e7.png)](https://gyazo.com/b2e8ddf0c23a11371e7c40ff154932e7)
+[![Image from Gyazo](https://i.gyazo.com/9874e93b2ae313872962991b5deb8a1e.png)](https://gyazo.com/9874e93b2ae313872962991b5deb8a1e)
 
 ## 4-3. メソッドを使った整列
 
