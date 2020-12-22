@@ -40,6 +40,8 @@ TcpConnectionSimulator クラスのコンストラクタには 4 つの仮引数
 
 [![Image from Gyazo](https://i.gyazo.com/9874e93b2ae313872962991b5deb8a1e.png)](https://gyazo.com/9874e93b2ae313872962991b5deb8a1e)
 
+**改行位置を変えることで表組できるときは表組すると簡潔になる**
+
 ## 4-3. メソッドを使った整列
 
 同一の処理がまとめられていないと読みにくい
@@ -122,6 +124,39 @@ TcpConnectionSimulator クラスのコンストラクタには 4 つの仮引数
 
 ## 4-7. 段落に分割する
 
+文章の段落に注目
+
+* 似ている考えをグループにまとめて、他の考えと分ける
+* 視覚的な「踏み石」を提供
+* 段落単位で移動できるようになる
+
+改善前
+
+[![Image from Gyazo](https://i.gyazo.com/11e017afcee23635c3ca93cbcdded637.png)](https://gyazo.com/11e017afcee23635c3ca93cbcdded637)
+
+改善後
+
+[![Image from Gyazo](https://i.gyazo.com/e2183f0d5afd26d5b4d17da0c1eeff43.png)](https://gyazo.com/e2183f0d5afd26d5b4d17da0c1eeff43)
+
+**文章と同じようにコードにも段落の分割は重要**
+
 ## 4-8. 個人的な好みと一貫性
 
+ どちらを選んでもよいが、同じプロジェクトでは統一するべき事例もある
+ 
+ 例 1.
+ 
+ [![Image from Gyazo](https://i.gyazo.com/6ef9146e43b908bec50ce289a51b4755.png)](https://gyazo.com/6ef9146e43b908bec50ce289a51b4755)
+ 
+ 例 2.
+
+[![Image from Gyazo](https://i.gyazo.com/7dc6731dbea0d2fcaaa677acbd2c99d6.png)](https://gyazo.com/7dc6731dbea0d2fcaaa677acbd2c99d6)
+
+**一貫性は正しさよりも大切**
+
 ## 4-9. まとめ
+
+* 複数のコードブロックで同じようなことをしていたら、シルエットも同じようなものにする。
+* コードの「列」を整列すれば、概要が把握しやすくなる。
+* ある場所で A・B・C のように並んでいたものを、他の場所で B・C・A のように並べてはいけない。意味のある順番を選んで、常にその順番を守る。
+* 空行を使って大きなブロックを論理的な「段落」に分ける。
