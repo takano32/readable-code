@@ -45,12 +45,12 @@ TcpConnectionSimulator クラスのコンストラクタには 4 つの仮引数
 同一の処理がまとめられていないと読みにくい
 
 
-[![Image from Gyazo](https://i.gyazo.com/355b9cb87396a9d7787f71d9d7182813.png)](https://gyazo.com/355b9cb87396a9d7787f71d9d7182813)
+[![Image from Gyazo](https://i.gyazo.com/6a45835fec343e5ece8b090e819cdfb3.png)](https://gyazo.com/6a45835fec343e5ece8b090e819cdfb3)
 
 
 ヘルパーメソッドを作成し処理をまとめて分かりやすくした例
 
-[![Image from Gyazo](https://i.gyazo.com/f7ecb3a06e761ceef1537a0280b58fbd.png)](https://gyazo.com/f7ecb3a06e761ceef1537a0280b58fbd)
+[![Image from Gyazo](https://i.gyazo.com/855d0ab8977a80a3e3336d5aed9050f2.png)](https://gyazo.com/855d0ab8977a80a3e3336d5aed9050f2)
 
 * 重複を排除したことでコードが簡潔になった。
 * テストケースの大切な部分(名前やエラー文字列)が見やすくなった。以前 は、database_connection や error などのトークンに囲まれていて、コード を見て「飲み込む」のが難しかった。
@@ -63,15 +63,19 @@ TcpConnectionSimulator クラスのコンストラクタには 4 つの仮引数
 
 先ほどの例に注目
 
-[![Image from Gyazo](https://i.gyazo.com/6b0058dbd246c47843c374ad092b3284.png)](https://gyazo.com/6b0058dbd246c47843c374ad092b3284)
+[![Image from Gyazo](https://i.gyazo.com/ad559836e62f5ffca999e38b04dc7da4.png)](https://gyazo.com/ad559836e62f5ffca999e38b04dc7da4)
 
 表敬式のようにすると分かりやすい
 
-[![Image from Gyazo](https://i.gyazo.com/eccc859452a4d3c8b1ac376f4eeb4333.png)](https://gyazo.com/eccc859452a4d3c8b1ac376f4eeb4333)
+[![Image from Gyazo](https://i.gyazo.com/d7c9d20e10d6fbbdc1e91b2f7b21800d.png)](https://gyazo.com/d7c9d20e10d6fbbdc1e91b2f7b21800d)
 
 規則性をもたせると間違いも見つけやすい
 
-[![Image from Gyazo](https://i.gyazo.com/fb7cf965a1ed6013efd54c4f855dffd6.png)](https://gyazo.com/fb7cf965a1ed6013efd54c4f855dffd6)
+[![Image from Gyazo](https://i.gyazo.com/d40ecfc3ecc686641ed7af89db3de0fc.png)](https://gyazo.com/d40ecfc3ecc686641ed7af89db3de0fc)
+
+### 備考: wget での例
+
+[![Image from Gyazo](https://i.gyazo.com/9eb456c81df5cd98d9747d4bc869d601.png)](https://gyazo.com/9eb456c81df5cd98d9747d4bc869d601)
 
 ### 備考: プロダクトでの例
 
