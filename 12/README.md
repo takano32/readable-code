@@ -18,7 +18,7 @@
 * ユーザにページを閲覧する権限があるかを確認
 * 権限がなければ、権限がないことをユーザに知らせるページに遷移
 
-// ToDo: Screen Shot
+[![Image from Gyazo](https://i.gyazo.com/c0636d4f84f9185212d143d18c1ab5f2.png)](https://gyazo.com/c0636d4f84f9185212d143d18c1ab5f2)
 
 このコードには大きなロジックツリーがあり、理解することが難しい
 
@@ -34,7 +34,7 @@
 
 上記の説明からの新しいコード
 
-// ToDo: Screen Shot
+[![Image from Gyazo](https://i.gyazo.com/b0576a76f1d1ec158c4b38411c5c7853.png)](https://gyazo.com/b0576a76f1d1ec158c4b38411c5c7853)
 
 * コードは小さくなった
 * ロジックも単純になった
@@ -60,7 +60,7 @@ if 文の中身がふたつも空だが、こちらのほうが理解しやす�
 
 jQuery を用いて次のヒントを閲覧する JavaScript のコードの記述が以下の通り
 
-// ToDo: Screen Shot
+[![Image from Gyazo](https://i.gyazo.com/59e76abfea21bc56df752d73a4d0ccb7.png)](https://gyazo.com/59e76abfea21bc56df752d73a4d0ccb7)
 
 動作には問題のないコードであるが、手順に沿ってコードを改善する
 
@@ -79,7 +79,7 @@ jQuery を用いて次のヒントを閲覧する JavaScript のコードの記�
 
 上記の説明をもとに記述したコードは以下のようになる
 
-// ToDo: Screen Shot
+[![Image from Gyazo](https://i.gyazo.com/d0361cc14eaf9facd3a647543b5fe365.png)](https://gyazo.com/d0361cc14eaf9facd3a647543b5fe365)
 
 * コードは短くなった
 * 数値の直接操作が不要になった
@@ -103,7 +103,7 @@ jQuery の `.next` メソッドを知っていれば簡潔なコードが書け�
 
 上記のデータはみっつのテーブルに格納されている
 
-// ToDo: Screen Shot
+[![Image from Gyazo](https://i.gyazo.com/730de34b27b2d0f0708201c1bf32fdc5.png)](https://gyazo.com/730de34b27b2d0f0708201c1bf32fdc5)
 
 適切にデータを取り扱うためには、みっつのテーブルを
 (SQLの `JOIN` のように)結合するコードを書かなければならない
@@ -114,7 +114,7 @@ jQuery の `.next` メソッドを知っていれば簡潔なコードが書け�
 
 `time` が一致する行だけを検索する Python のコードは以下のようになる
 
-// ToDo: Screen Shot
+[![Image from Gyazo](https://i.gyazo.com/c4747a95990fafb4c2a03907c30c33df.png)](https://gyazo.com/c4747a95990fafb4c2a03907c30c33df)
 
 * 一致しない行をスキップするロジックが難しい
   * 行を抜かしていないか注意
@@ -136,7 +136,7 @@ jQuery の `.next` メソッドを知っていれば簡潔なコードが書け�
 
 これを簡潔にするために `AdvanceToMatchingTime()` という関数にまとめる
 
-// ToDo: Screen Shot
+[![Image from Gyazo](https://i.gyazo.com/c7e32fecd47ebe5d6e38421b61e33c49.png)](https://gyazo.com/c7e32fecd47ebe5d6e38421b61e33c49)
 
 行を一致させるための複雑な箇所が隠蔽され、理解しやすくなった
 
@@ -144,7 +144,7 @@ jQuery の `.next` メソッドを知っていれば簡潔なコードが書け�
 ### 手法を再帰的に適用する
 `AdvanceToMatchingTime()` の責務に基づいて愚直に書いたコードは以下のようになる
 
-// ToDo: Screen Shot
+[![Image from Gyazo](https://i.gyazo.com/c6ba5107a083eeb6853b9b70d2a5f899.png)](https://gyazo.com/c6ba5107a083eeb6853b9b70d2a5f899)
 
 `AdvanceToMatchingTime()` にもいままでの改善と同じ手法を
 適用するために簡単な説明に書き下す
@@ -159,7 +159,10 @@ jQuery の `.next` メソッドを知っていれば簡潔なコードが書け�
 
 上記の説明に合わせて書き換えたコードは以下のようになる
 
-// ToDo: Screen Shot
+[![Image from Gyazo](https://i.gyazo.com/63fc65f9df1c50d5472766cbd6cfb0cf.png)](https://gyazo.com/63fc65f9df1c50d5472766cbd6cfb0cf)
+
+[![Image from Gyazo](https://i.gyazo.com/3a64f7da6ede546b8132d5053ef95e8c.png)](https://gyazo.com/3a64f7da6ede546b8132d5053ef95e8c)
+
 
 コードが以前よりも簡潔になった
 
