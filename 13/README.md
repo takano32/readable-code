@@ -73,7 +73,7 @@
 * プロジェクトをサブプロジェクトに分割する
 * コードの「重量」を意識し、軽量で機敏にする
 
-// ToDo: Screen Shot グラフ
+[![Image from Gyazo](https://i.gyazo.com/d662fa6a029aa4f098b8e6efeffa0d07.png)](https://gyazo.com/d662fa6a029aa4f098b8e6efeffa0d07)
 
 
 ## 13-4. 身近なライブラリに親しむ
