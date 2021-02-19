@@ -105,6 +105,29 @@
 ...
 ```
 
+汎化した表現は以下のようになる。
+
+`browser-IP host [date] "GET /url-path HTTP/1.1" HTTP-response-code ...`
+
+この形式から `4xx` や `5xx` のレスポンスコードを返している `url-path` を
+見つけるプログラムを C++ や Java (あるいは Python) のような言語で
+書くと軽く20行は越えてしまう。
+
+Unix では以下のコマンドで解決できる。
+
+`cat access.log | awk '{ print $5 " " $7 }' | egrep "[45]..$" ¥ | sort | uniq -c | sort -nr`
+
+以下のような出力が得られる。
+
+```
+95 /favicon.ico 404
+13 /help?topic=8 500
+11 /login 403
+...
+
+`< カウント > < パス > <HTTP レスポンスコード >` が件数順に並んでいる。
+
+これから原因を特定することは簡単だろう。
 
 ## 13-6. まとめ
 
